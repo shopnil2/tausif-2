@@ -70,27 +70,15 @@ section.header-section {
 footer{
     background: #282531;
 }
+/*button*/
 
-/* button */
-.btn-primary{
-    background: green;
-    border-radius: 33px;
-    border: none;
-    padding: 12px 36px;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
+.btn-primary {
+    color: #fff;
+    background-color: #00ff14;
+    border-color: #007bff;
 }
-.btn-primary:hover, .btn-primary:focus {
-    background-color: #34b67b;
-    border-color: none;
-    box-shadow: none;
-}
-.btn-primary:not(:disabled):not(.disabled):active{
-    background-color: #21B573;
-    border: none;
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
 }
 /* navigation bar */
 
@@ -271,4 +259,3 @@ footer li{
         text-align: center;
     }
   }
-}
